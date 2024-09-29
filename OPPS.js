@@ -1,4 +1,4 @@
-class person {
+// class person {
 //   name = "sarthak";
 //   #age = 22; //private variable
   
@@ -28,3 +28,28 @@ class person {
 // }
 
 // const Dog1 = new Dog();
+// //Dog1.speak() 
+
+//PolyMorphism//
+
+class Animal {
+    speak() {
+        console.log("animal can not speak just make noise")
+    }
+}
+
+class Dog extends Animal {
+    speak() {
+        console.log("dog is barking")
+    }
+} 
+
+class Cat extends Animal {
+    speak() {
+        console.log("cat - Meow-Meow")
+    }
+} 
+
+let Speaker = new Dog();
+Speaker.speak()
+
