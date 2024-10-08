@@ -1,2 +1,1 @@
-writable : false,
-    enumerable : false,
+email
